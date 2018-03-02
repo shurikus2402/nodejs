@@ -323,7 +323,7 @@ Will be `true` if this `Http2Session` instance has been closed, otherwise
 
 #### http2session.connecting
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * {boolean}
@@ -878,7 +878,7 @@ stream.on('trailers', (headers, flags) => {
 
 #### Event: 'wantTrailers'
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 The `'wantTrailers'` event is emitted when the `Http2Stream` has queued the
@@ -1050,7 +1050,7 @@ A current state of this `Http2Stream`.
 
 #### http2stream.sendTrailers(headers)
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `headers` {HTTP/2 Headers Object}
@@ -1279,7 +1279,7 @@ server.on('stream', (stream) => {
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18936
     description: Any readable file descriptor, not necessarily for a
                  regular file, is supported now.
@@ -1374,7 +1374,7 @@ server.on('stream', (stream) => {
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18936
     description: Any readable file, not necessarily a
                  regular file, is supported now.
@@ -2710,7 +2710,7 @@ See [`response.socket`][].
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v10.0.0
     pr-url: https://github.com/nodejs/node/pull/18780
     description: This method now returns a reference to `ServerResponse`.
 -->

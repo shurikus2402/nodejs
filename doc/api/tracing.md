@@ -74,12 +74,12 @@ unlike `process.hrtime()` which returns nanoseconds.
 
 ## The `trace_events` module
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 ### `Tracing` object
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 The `Tracing` object is used to enable or disable tracing for sets of
@@ -93,7 +93,7 @@ set of enabled trace event categories.
 
 #### `tracing.categories`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * {string}
@@ -103,7 +103,7 @@ A comma-separated list of the trace event categories covered by this
 
 #### `tracing.disable()`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 Disables this `Tracing` object.
@@ -129,7 +129,7 @@ console.log(trace_events.getEnabledCategories());
 
 #### `tracing.enable()`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 Enables this `Tracing` object for the set of categories covered by the
@@ -137,14 +137,14 @@ Enables this `Tracing` object for the set of categories covered by the
 
 #### `tracing.enabled`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * {boolean} `true` only if the `Tracing` object has been enabled.
 
 ### `trace_events.createTracing(options)`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * `options` {Object}
@@ -166,7 +166,7 @@ tracing.disable();
 
 ### `trace_events.getEnabledCategories()`
 <!-- YAML
-added: REPLACEME
+added: v10.0.0
 -->
 
 * Returns: {string}
